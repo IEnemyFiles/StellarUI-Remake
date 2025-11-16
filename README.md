@@ -1,4 +1,4 @@
-local UILib = loadstring(Game:HttpGet("https://raw.githubusercontent.com/IEnemyFiles/StellarUI-Remake/refs/heads/main/NewUiStellar.lua"))()
+local UILib = loadstring(game:HttpGet("https://raw.githubusercontent.com/IEnemyFiles/StellarUI-Remake/refs/heads/main/NewUiStellar.lua"))()
 
 if UILib:LoadAnimation() then
 	UILib:StartLoad();
